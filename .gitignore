@@ -28,4 +28,4 @@
 
 #remove installed packages
 Gemfile.lock
-/client/yarn.lock
+/client/*.lock
