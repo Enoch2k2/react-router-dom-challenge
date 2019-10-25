@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 export class PetLi extends Component {
   render() {
     return (
-      <li>
+      <li className="collection-item">
         { this.props.pet.name }
       </li>
     )

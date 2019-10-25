@@ -21,9 +21,9 @@ export class PetIndex extends Component {
 
     return (
       <div>
-        <h1>Pet List</h1>
-        <ul>
-          { pets.length > 0 ? pets : 'loading...' }
+        <ul className="collection with-header">
+          <li className="collection-header"><h4>Pet List</h4></li>
+          {pets.length > 0 ? pets : <li className="collection-item">'loading...'</li> }
         </ul>
       </div>
     )
