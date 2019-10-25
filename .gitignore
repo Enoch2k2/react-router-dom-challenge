@@ -25,3 +25,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#remove installed packages
+Gemfile.lock
+/client/yarn.lock
