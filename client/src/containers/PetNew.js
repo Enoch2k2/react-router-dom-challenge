@@ -41,7 +41,7 @@ export class PetNew extends Component {
       <form onSubmit={ this.handleSubmit }>
         <h1>Create Pet</h1>
         <div className="input-field">
-          <input type="text" name="name" id="name" value={this.state.name} onChange={ this.handleChange } />
+          <input type="text" name="name" id="name" value={this.state.name} onChange={ this.handleChange } required />
           <label htmlFor="name">Name</label>
         </div>
 
