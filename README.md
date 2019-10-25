@@ -14,7 +14,7 @@ If you run into any webpacker issue, you can add `SKIP_PREFLIGHT_CHECK=true` to 
 
 ## Running the server
 
-You can run both servers just by typing `rake start`. This uses the procfile in order to run both servers in one terminal.
+You can run both servers just by typing `rake start` from the root of your rails directory. This uses the procfile in order to run both servers in one terminal.
 
 ## The challenge (dum dum dummmmmm)
 
