@@ -3,8 +3,14 @@
 ## Getting Started
 Install the packages
 
+- run `bundle install`
+- run `rails db:migrate db:seed`
+- cd into the `client` directory
 - For npm users run `npm install`. For yarn users run `yarn install`.
 - Add react-router-dom as a dependency, for npm users `npm install react-router-dom --save`, for yarn users `yarn add react-router-dom`
+
+
+If you run into any webpacker issue, you can add `SKIP_PREFLIGHT_CHECK=true` to an .env file.
 
 ## Running the server
 
